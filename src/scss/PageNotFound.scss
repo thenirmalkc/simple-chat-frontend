@@ -1,0 +1,42 @@
+@import './index.scss';
+
+.pagenotfound-container {
+  background-color: rgb(229 231 235);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagenotfound-inner-container {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.pagenotfound-error-code {
+  // background-color: lightgreen;
+  color: rgb(30 58 138);
+  font-size: 10rem;
+  margin-bottom: 40px;
+}
+
+.pagenotfound-title {
+  font-size: 3.2rem;
+  margin-bottom: 8px;
+}
+
+.pagenotfound-msg {
+  margin-bottom: 40px;
+}
+
+.pagenotfound-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  button {
+    @extend .btn;
+  }
+}
