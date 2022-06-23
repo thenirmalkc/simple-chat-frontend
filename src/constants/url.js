@@ -1,8 +1,5 @@
-const rootApiUrl = 'https://demo-simple-chat-backend.herokuapp.com';
+const rootApiUrl = 'http://demo-simple-chat-backend.herokuapp.com';
 const socketUrl = 'ws://demo-simple-chat-backend.herokuapp.com';
-
-// const rootApiUrl = 'http://localhost:7000';
-// const socketUrl = 'ws://localhost:7000';
 
 const apiUrl = {
   getUser: `${rootApiUrl}/user`,
